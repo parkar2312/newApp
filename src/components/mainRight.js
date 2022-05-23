@@ -19,7 +19,7 @@ function MainRight() {
       event.stopPropagation();
     }
     else{
-      navigate('/bar');
+      navigate('/newApp/bar');
     }
     setValidated(true);
   };

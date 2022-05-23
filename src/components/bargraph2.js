@@ -21,7 +21,7 @@ const Chart = () => {
 	  }
 	
 	  function goBack(){
-		navigate('/');
+		navigate('/newApp');
 	  }
 
 	const d3Chart = useRef()

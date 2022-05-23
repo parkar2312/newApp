@@ -1,0 +1,49 @@
+.App{
+    margin: 0;
+    background-color: #F2F3F8;
+  &__main{
+    background-color: #F2F3F8;
+    display: flex;
+  }
+}
+
+.mainLeft{
+  margin:  1rem .2rem 1rem 1rem;
+  background-color: #f7f7f7;
+  flex: 1;
+  img{
+    margin-top: 5.5rem;
+    margin-left: 2rem;
+ }
+ .mainLeft__text{
+  margin: 0 auto; 
+  text-align: center;
+  width: 45%;
+  text-align: center;
+  h2{
+    font-size: x-large;
+ }
+ h3{
+  color: gray;
+  font-size: small;
+ }
+ }
+}
+
+.mainRight{
+  margin: 1rem 1rem 1rem .2rem;
+  background-color: #ffffff;
+  flex: 1;
+  Form{
+    width: 63%;
+    margin: 4rem;
+ }
+ &__header{
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+ }
+ .button{
+  margin-top: 2rem;
+ }
+}

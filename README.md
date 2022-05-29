@@ -8,9 +8,9 @@ This web app written in React JS was given as a challenge/test for being hired a
 
 ## Installation
 
-$ git clone https://example.com
+$ git clone https://github.com/parkar2312/newApp.git
 
-$ cd ../path/to/the/file
+$ cd new_app/src/app.js
 
 $ npm install
 

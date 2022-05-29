@@ -1,0 +1,112 @@
+body{
+  background-color: #f0f0f0;
+}
+.App__main{
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  min-width: 17.625rem;
+  /* border: 1px solid gray; */
+  box-shadow: 1px 1px 3px #888;
+  border-top: .2rem solid #E16259;
+  min-height: 6.875rem;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  }
+  .card_div_gender{
+    color: #888;
+    font-size: 14px;
+   }
+   .card_div_name{
+   font-size: 18px;
+   font-weight: bolder;
+   }
+   .card_div_email{
+   font-size: 14px;
+   color: #E16259;
+   }
+   .mainbox :hover{
+    background-color: #A259FF;
+    color: white;
+    transition: .2s;
+  }
+  .card_top{
+    width: 62.25rem;
+    border: 1px solid rgb(238, 235, 235);
+    box-shadow: 1px 1px 3px #888;
+    border-top: .5rem solid #E16259;
+    /* border-bottom: .5rem solid #E16259; */
+    min-height: 15.18rem;
+    padding: 10px;
+    margin: 10px; 
+    margin-bottom: 4rem;
+    display: flex;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  .card_top-photo img{
+    margin: 3rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+  }
+  .card_top-photo{
+    width: 25%;
+  }
+  .card_top-details{
+    width: 65%;
+  }
+  .card_top-details-name{
+    font-weight: 500;
+  font-size: 58px;
+  color: #E16259;
+  text-decoration: underline 3px;
+  }
+  .card_top-details-address{
+  font-size: 20px;
+  font-weight: 500;
+  }
+  .card_top-details-location{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .card_top-details-gender{
+    font-size: 20px;
+    color: #888;
+    font-weight: 200;
+  } 
+  @media screen and (max-width: 450px) {
+    .card{
+      width: 14rem ;
+    }
+    .card_top{
+      max-width: 20rem; 
+      height: 10rem;
+    }
+    .card_top-photo img{
+      margin: .6rem;
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 100%;
+    }
+    .card_top-details-name{
+      font-weight: 500;
+      font-size: 20px;
+    }
+    .card_top-details-address{
+    font-size: 13px;
+    font-weight: 500;
+    }
+    .card_top-details-location{
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .card_top-details-gender{
+      font-size: 13px;
+      font-weight: 200;
+    }
+  }
